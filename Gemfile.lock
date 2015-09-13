@@ -157,9 +157,10 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  github-pages
+  github-pages (= 39)
   jekyll
   jekyll-sitemap
+  json
   octopress (~> 3.0.0.rc.12)
 
 BUNDLED WITH

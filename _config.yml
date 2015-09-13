@@ -1,13 +1,13 @@
 # Site wide configuration
 
-title:            Site Title
+title:            Where do you want to throw today?
 locale:           en_US
 url:
 
 
 # Jekyll configuration
 
-permalink:   /:categories/:title/
+permalink:   pretty
 markdown:    kramdown
 highlighter: pygments
 sass:
@@ -26,36 +26,36 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email:
-  disqus-shortname:
-  twitter: #username
-  facebook: #username
+  name: Gusztáv Varga
+  avatar: gravatar.jpg
+  bio: "52b9af6d-f333-4053-9a4f-a636f613eac6, aec68695-97b6-4b3a-a36a-72ae89ef41fa and a little bit of 79b6907a-e5b4-4c21-a190-4ccfac282403."
+  email: me@gusztavvargadr.me
+  disqus-shortname: wheredoyouwanttothrowtoday
+  twitter: gusztavvargadr
+  facebook:
   google:
-    plus: #username
-    analytics:
+    plus:
+    analytics: UA-67541332-1
     verify:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
-  xing: #username
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  weibo: #username
-  flickr: #username
-  codepen: #username
+  github: gusztavvargadr
+  stackoverflow: 119643/gusztav-varga-dr
+  linkedin: gusztavvargadr
+  xing:
+  instagram:
+  lastfm:
+  tumblr:
+  pinterest:
+  foursquare:
+  steam:
+  dribbble:
+  youtube:
+  soundcloud:
+  weibo:
+  flickr:
+  codepen:
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
