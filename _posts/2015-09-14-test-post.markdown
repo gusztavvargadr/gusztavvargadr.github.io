@@ -1,0 +1,14 @@
+---
+layout: post
+title: Test Post
+modified:
+categories: 
+excerpt: Test Post Details
+tags: []
+image:
+  feature:
+date: 2015-09-14T07:48:53+02:00
+comments: true
+---
+
+This is a test post.
