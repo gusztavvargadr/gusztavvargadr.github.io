@@ -2,7 +2,7 @@ language: ruby
 rvm:
 - 2.1
 
-install: gem install jekyll html-proofer
+install: bundle update
 script: jekyll build --config _config.yml,_config.local.yml && htmlproof ./_site
 
 env:
