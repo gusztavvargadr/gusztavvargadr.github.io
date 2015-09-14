@@ -2,8 +2,7 @@
 
 title:            Where do you want to throw today?
 locale:           en_US
-# url:              http://gusztavvargadr.github.io
-url:              http://localhost:4000
+url:              http://gusztavvargadr.github.io
 
 
 # Jekyll configuration
