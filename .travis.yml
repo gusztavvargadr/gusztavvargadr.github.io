@@ -2,8 +2,8 @@ language: ruby
 rvm:
 - 2.1
 
-install: gem install jekyll html-proofer
-script: jekyll build --config _config.yml,_config.local.yml && htmlproof ./_site
+install: bundle update
+script: jekyll build --config _config.yml,_config.local.yml && htmlproof ./_site --href-ignore linkedin.com
 
 env:
   global:
