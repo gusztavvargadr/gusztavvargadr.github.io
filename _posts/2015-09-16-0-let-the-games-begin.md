@@ -14,7 +14,7 @@ date: 2015-09-16T22:16:14+02:00
 comments: true
 ---
 
-This starts with 0 as expected but it is already a major improvement considering it did not exist before. But don't worry, it will go soon to [11][TheseGoToEleven], [12][TheJoelTest] and then far beyond.
+This starts with 0 as expected but it is already a major improvement considering it did not exist at all before. But don't worry, it will go soon to [11][TheseGoToEleven], [12][TheJoelTest] and then far beyond.
 
 ## Summary
 
