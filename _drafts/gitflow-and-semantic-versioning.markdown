@@ -11,4 +11,4 @@ date: 2015-09-16T22:24:19+02:00
 comments: true
 ---
 
-This will be about the practical usage of GitFlow and Semantic Versioning (NuGet, Assembly versioning).
+This will be about the practical usage of GitFlow and Semantic Versioning (NuGet, Assembly versioning).	
