@@ -9,18 +9,18 @@ image:
 
 ## Me
 
-My name is Gusztáv Varga. I'm a software engineer [working for][AlbelliJobs] [Albelli][Albelli] in [Amsterdam, The Netherlands][Iamsterdam]. The name [Gusztáv][Gustav] is of Swedish origin in contrast to my [Hungarian][VisitHungary] in contrast to our [alien][Hungarians]. Commenting is enabled for the [posts][Posts] so you can try to [piss me off][HowToPissOffAHungarian].
+My name is Gusztáv Varga. I'm a software engineer [working for][AlbelliJobs] [Albelli][Albelli] in [Amsterdam, The Netherlands][Iamsterdam]. The name [Gusztáv][Gustav] is of Swedish origin in contrast to my [Hungarian][VisitHungary] in contrast to our [alien][Hungarians]. Commenting is enabled for [posts][Posts] so you can try to [piss me off][HowToPissOffAHungarian].
 
 ## This site
 
-This is my personal blog about software development in general but slightly biased towards .NET and the Microsoft platforms which I work with the most. The name of the blog comes from a related famous [campaign][WhereDoYouWantToGoToday] from the last millennium. It is inspired by [John Sonmez][SimpleProgrammer], [Scott Hanselman][Scott], [Joel Spolsky][Joel] and [Anton Sizikov][Anton].
+This is my personal blog about software development in general but slightly biased towards .NET and the Microsoft platforms which I most of the time work with. The name of the site comes from a related famous [campaign][WhereDoYouWantToGoToday] from the last millennium. This all is inspired by [John Sonmez][SimpleProgrammer], [Scott Hanselman][Scott], [Joel Spolsky][Joel] and [Anton Sizikov][Anton].
 
 ## References
 
 * [Albelli Jobs][AlbelliJobs]
 * [Albelli][Albelli]
 * [I amsterdam][Iamsterdam]
-* [Gustav][Gustav]
+* [Gusztáv][Gustav]
 * [Visit Hungary][VisitHungary]
 * [Hungarians][Hungarians]
 * [Posts][Posts]
