@@ -1,5 +1,7 @@
 ---
 layout: post-index
 title: Posts
-excerpt: "The list of all posts"
+excerpt: "All the ones thrown recently."
+image:
+  feature: banner.png
 ---
