@@ -1,9 +1,14 @@
 language: ruby
+cache: bundler
 rvm:
 - 2.1
 
-install: bundle update
-script: jekyll build --config _config.yml,_config.local.yml && htmlproof ./_site
+notifications:
+  email:
+    on_success: change
+    on_failure: change
+
+script: bundle exec jekyll build --config _config.yml,_config.local.yml && bundle exec htmlproof ./_site
 
 env:
   global:
