@@ -2,6 +2,11 @@ language: ruby
 rvm:
 - 2.1
 
+notifications:
+  email:
+    on_success: change
+    on_failure: change
+
 install: bundle update
 script: jekyll build --config _config.yml,_config.local.yml && htmlproof ./_site
 
