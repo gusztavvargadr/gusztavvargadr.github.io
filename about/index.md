@@ -34,7 +34,7 @@ This is my personal blog about software development in general but slightly bias
 * [Where do you want to go today?][WhereDoYouWantToGoToday]
 * [Posts][Posts]
 
-[WhyHowWhat]: http://www.startwithwhy.com/
+[WhyHowWhat]: http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action?language=en
 [AlbelliJobs]: http://www.albelli-jobs.com/
 [Albelli]: http://albelli.nl/
 [Iamsterdam]: http://iamsterdam.com/
