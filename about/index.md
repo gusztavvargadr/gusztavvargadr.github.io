@@ -34,7 +34,7 @@ This is my personal blog about software development in general but slightly bias
 * [Where do you want to go today?][WhereDoYouWantToGoToday]
 * [Posts][Posts]
 
-[WhyHowWhat]: https://www.startwithwhy.com/
+[WhyHowWhat]: http://www.startwithwhy.com/
 [AlbelliJobs]: http://www.albelli-jobs.com/
 [Albelli]: http://albelli.nl/
 [Iamsterdam]: http://iamsterdam.com/
