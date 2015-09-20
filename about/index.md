@@ -7,8 +7,8 @@ image:
   feature: feature.png
 ---
 
-{% include _toc.html %}
-
+{% include _toc.html %}  
+<br/>
 [Why? How? What?][WhyHowWhat]
 
 ## Me
