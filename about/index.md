@@ -7,6 +7,8 @@ image:
   feature: feature.png
 ---
 
+{% include _toc.html %}
+
 [Why? How? What?][WhyHowWhat]
 
 ## Me
@@ -17,7 +19,7 @@ The name [Gusztáv][Gustav] is of Swedish origin in contrast to my [Hungarian][V
 
 ## This
 
-This is my personal blog about software development in general but slightly biased towards .NET and the Microsoft platforms which I most of the time work with.  
+This site runs my personal blog about software development in general but slightly biased towards .NET and the Microsoft platforms which I most of the time work with.  
 <br/>
 The name of the site comes from a related famous [campaign][WhereDoYouWantToGoToday] from the last millennium.
 
