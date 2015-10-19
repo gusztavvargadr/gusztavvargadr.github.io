@@ -13,7 +13,7 @@ comments: true
 
 {% include _toc.html %}  
 <br/>
-Although I’ve been using both [GitFlow][GitFlow] and [Semantic Versioning][SemVer] for a long time now, I've always felt that something is missing from the everyday workflow. They are both nice concepts, but they offer solutions for problems in different domains. Nevertheless, applying them together seems to be a bit more complicated than I feel it should be.  
+Although I've been using both [GitFlow][GitFlow] and [Semantic Versioning][SemVer] for a long time now, I've always felt that something is missing from the everyday workflow. They are both nice concepts, but they offer solutions for problems in different domains. Nevertheless, applying them together seems to be a bit more complicated than I feel it should be.  
 <br/>
 It might also mean, of course, that the workflow I try to apply it to is not optimal, but that can be a topic for a different post later. In this one, I just want to describe one simple approach for managing the release of applications and other shared components.
 
@@ -21,7 +21,7 @@ It might also mean, of course, that the workflow I try to apply it to is not opt
 
 How do we make sure that an application release never gets to production without passing the integration tests? How do we make sure that a class library NuGet package never gets published to a public feed without passing the static code analysis requirements?  
 <br/>
-Most of the tools we need for these tasks are already there, and we are already using them “manually”. What’s missing is some more automation, but to achieve that, we need some conventions and patterns.
+Most of the tools we need for these tasks are already there, and we are already using them "manually". What's missing is some more automation, but to achieve that, we need some conventions and patterns.
 
 ## The toolkit
 
@@ -39,7 +39,7 @@ A nice extra in the .NET world is that NuGet itself [almost supports it][NuGetSe
 
 ### GitFlow
 
-For most of the projects, I have worked with GitFlow and always have felt it to be the first natural choice to go with. In case it turns out to be too complex, given the frequency of changes or the level of collaboration you can “fall back” to e.g., [GitHub Flow][GitHubFlow] where everything is "just" a hotfix.  
+For most of the projects, I have worked with GitFlow and always have felt it to be the first natural choice to go with. In case it turns out to be too complex, given the frequency of changes or the level of collaboration you can "fall back" to e.g., [GitHub Flow][GitHubFlow] where everything is "just" a hotfix.  
 <br/>
 I would like to add though that you don't even need Git for this setup, as the ALM Rangers also [describe][ARBranching]; it is just easier to implement with it than, for example, Subversion.  
 <br/>
@@ -47,13 +47,13 @@ I will not go into the details of the various branching strategies themselves, a
 
 ## A method to forget
 
-In the good old days, before the tools mentioned above were available, or were there but were just ignored, a common approach was to build a version once and propagate the same artifacts across different environments. A basic solution for this was to commit the actual binaries to a dedicated repository and propagate them through a custom set of branches that reflected the actual environments. This sometimes involved baseless merges and a lot of merge conflicts in mainly configuration files. “All you needed” after this was some custom script on top of Robocopy to make the actual deployment.  
+In the good old days, before the tools mentioned above were available, or were there but were just ignored, a common approach was to build a version once and propagate the same artifacts across different environments. A basic solution for this was to commit the actual binaries to a dedicated repository and propagate them through a custom set of branches that reflected the actual environments. This sometimes involved baseless merges and a lot of merge conflicts in mainly configuration files. "All you needed" after this was some custom script on top of Robocopy to make the actual deployment.  
 <br/>
 This setup is very error-prone due to the number of manual steps required, and because things can go wrong easily, they usually do. Please forget this approach and everything you read in the previous paragraph too.
 
 ## The next approach
 
-Now, let’s take a look at possible uses of the above concepts and the related tools.
+Now, let's take a look at possible uses of the above concepts and the related tools.
 
 ### Artifacts
 
@@ -63,9 +63,9 @@ For shared components, NuGet is there for the rescue. Using a deployment manager
 
 ### Branches and releases
 
-Instead of creating dedicated branches for environments, let’s create artifacts that describe their stage in the deployment pipeline to link naturally to the environment they need to be deployed to. Based on the convention of what the environment is used for, we can identify the next step in the workflow automatically.  
+Instead of creating dedicated branches for environments, let's create artifacts that describe their stage in the deployment pipeline to link naturally to the environment they need to be deployed to. Based on the convention of what the environment is used for, we can identify the next step in the workflow automatically.  
 <br/>
-First, we have to define how “stable” is an artifact built from a given branch:  
+First, we have to define how "stable" is an artifact built from a given branch:  
 
 Branch | Release type | Version format
 :--- | :--- | :---
@@ -97,11 +97,11 @@ Release to production | master | 7 | 1.2.0
 Fix production issue | hotfix-1.2.1 | 8 | 1.2.1-r8
 Release to production | master | 9 | 1.2.1
 
-This pattern reflects the natural order of “strength” of releases when sorting packages by version, as well. When I have to bump the version number, I prefer incrementing it manually on release and hotfix creation in the shared metadata file and committing it to the repository. This way it propagates is through merging, as everything else, and I will always have the correct actual values for the local clones too.
+This pattern reflects the natural order of "strength" of releases when sorting packages by version, as well. When I have to bump the version number, I prefer incrementing it manually on release and hotfix creation in the shared metadata file and committing it to the repository. This way it propagates is through merging, as everything else, and I will always have the correct actual values for the local clones too.
 
 ### Deployments
 
-The first line of defense for making sure we do not accidentally deploy packages to “wrong” environments is to block package creation. Aside from the regular techniques like failing the whole CI build, when unit tests fail, we can utilize [protected branches][GitHubProtectedBranches].  
+The first line of defense for making sure we do not accidentally deploy packages to "wrong" environments is to block package creation. Aside from the regular techniques like failing the whole CI build, when unit tests fail, we can utilize [protected branches][GitHubProtectedBranches].  
 <br/>
 Using the concept of [lifecycles][OctopusLifecycles] in [Octopus Deploy][Octopus], we can control the propagation of an actual release through the different environments. In the above flow, however, we have different artifacts and new releases for the various stages, so what we need is controlling where a release can enter the deployment pipeline:
 
