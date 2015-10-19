@@ -21,7 +21,7 @@ It might also mean, of course, that the workflow I try to apply it to is not opt
 
 How do we make sure that an application release never gets to production without passing the integration tests? How do we make sure that a class library NuGet package never gets published to a public feed without passing the static code analysis requirements?  
 <br/>
-Most of the tools we need for these tasks are already there, and we are already using them “manually.” What’s missing is some more automation, but to achieve that, we need some conventions and patterns.
+Most of the tools we need for these tasks are already there, and we are already using them “manually”. What’s missing is some more automation, but to achieve that, we need some conventions and patterns.
 
 ## The toolkit
 
@@ -112,7 +112,7 @@ beta | T, D
 release candidate | A, T, D
 stable | P, A, T, D
 
-This check can be enforced via a custom script, until something similar is natively supported in the form of like version-based multiple lifecycle types for a project. By encoding the release type information into the package version, we have the foundation now for "safe" and automatic release creation and deployment. We can use either [Octopus Deploy][Octopus] [natively][OctopusAutomaticRelease]y, or utilities like deployment trains, for example, based on a predefined schedule.
+This check can be enforced via a custom script, until something similar is natively supported in the form of like version-based multiple lifecycle types for a project. By encoding the release type information into the package version, we have the foundation now for "safe" and automatic release creation and deployment. We can use either [Octopus Deploy][Octopus] [natively][OctopusAutomaticRelease], or utilities like deployment trains, for example, based on a predefined schedule.
 
 ## Alternatives
 
