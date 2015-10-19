@@ -33,7 +33,7 @@ Unless we meet the requirements or the infrastructure for testing in production,
 
 ### Semantic Versioning
 
-Before going into the details of what exactly we need to version, we have to think about how to do versioning at all. This topic is not new and, fortunately, we have semantic versioning, which is obviously versioned also conforming to itself as you can double-check reading through the [specifications][SemVer].  
+Before going into the details of what exactly we need to version, we have to think about how to do versioning at all. This topic is not new and, fortunately, we have Semantic Versioning, which is obviously versioned also conforming to itself as you can double-check reading through the [specifications][SemVer].  
 <br/>
 A nice extra in the .NET world is that NuGet itself [almost supports it][NuGetSemVer] as do [most of the public packages][Log4Net2]. At least you have an option here.
 
@@ -53,7 +53,7 @@ This setup is very error-prone due to the number of manual steps required, and b
 
 ## The next approach
 
-Now, let's take a look at possible uses of the above concepts and the related tools.
+Now, let's take a look at the possible uses of the above concepts and the related tools.
 
 ### Artifacts
 
