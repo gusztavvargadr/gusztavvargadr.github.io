@@ -39,7 +39,7 @@ A nice extra in the .NET world is that NuGet itself [almost supports it][NuGetSe
 
 ### GitFlow
 
-For most of the projects I have worked with, GitFlow always felt to be the first natural choice to go with. In case it turns out to be too complex, given the frequency of changes or the level of collaboration you can “fall back” to e.g., [GitHub Flow][GitHubFlow] where everything is "just" a hotfix.  
+For most of the projects, I have worked with GitFlow and always have felt it to be the first natural choice to go with. In case it turns out to be too complex, given the frequency of changes or the level of collaboration you can “fall back” to e.g., [GitHub Flow][GitHubFlow] where everything is "just" a hotfix.  
 <br/>
 I would like to add though that you don't even need Git for this setup, as the ALM Rangers also [describe][ARBranching]; it is just easier to implement with it than, for example, Subversion.  
 <br/>
@@ -101,7 +101,7 @@ This pattern reflects the natural order of “strength” of releases when sorti
 
 ### Deployments
 
-The first line of defense for making sure we do not accidentally deploy packages to “wrong” environments is to block package creation. Aside from the regular techniques like failing the whole CI build, when unit tests fail, [protected branches][GitHubProtectedBranches].  
+The first line of defense for making sure we do not accidentally deploy packages to “wrong” environments is to block package creation. Aside from the regular techniques like failing the whole CI build, when unit tests fail, we can utilize [protected branches][GitHubProtectedBranches].  
 <br/>
 Using the concept of [lifecycles][OctopusLifecycles] in [Octopus Deploy][Octopus], we can control the propagation of an actual release through the different environments. In the above flow, however, we have different artifacts and new releases for the various stages, so what we need is controlling where a release can enter the deployment pipeline:
 
@@ -118,13 +118,13 @@ This check can be enforced via a custom script, until something similar is nativ
 
 Having the same release number as the deployment packages' version number itself (actually not separating the concepts of the release and the artifact properly) is still a bit smelly here. Especially for NuGet packages of class libraries, some additional release naming scheme based on, e.g., tagging (which is recommended to use, at least for stable releases, anyway) could be a nice improvement.  
 <br/>
-I have just came across that [GitVersion][GitVersion] supports these types of conventions natively in a highly customizable way, so this tool definitely worth taking a look at.
+I have just came across that [GitVersion][GitVersion] supports these types of conventions natively in a highly customizable way, so this tool is definitely worth taking a look at.
 
 ## Summary
 
 In this post, we have seen a simple approach for managing the release of applications and other shared components. Hopefully, some parts might be useful for you in one way or another.  
 <br/>
-Add your comments below about the setup above or about how you do branching, versioning and release management in general.
+Add your comments below about the setup above or about how you do branching, versioning, and release management in general.
 
 ## References
 
