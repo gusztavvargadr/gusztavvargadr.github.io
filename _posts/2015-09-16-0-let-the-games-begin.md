@@ -14,8 +14,8 @@ date: 2015-09-16T22:16:14+02:00
 comments: true
 ---
 
-{% include _toc.html %}
-
+{% include _toc.html %}  
+<br/>
 This starts with 0 as expected, but it's already a major improvement considering that the site did not exist at all before. But don't worry, it will go soon to [11][TheseGoToEleven], [12][TheJoelTest] and then far beyond.  
 <br>
 Welcome to [my world][About].
