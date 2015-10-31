@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "#0 Let The Games Begin"
+title: "#0 Let the games begin"
 modified:
-categories: 
+categories:
 excerpt: The root of all evil.
 tags: []
 image:
@@ -10,7 +10,6 @@ image:
   thumb:
   credit:
   creditlink:
-date: 2015-09-16T22:16:14+02:00
 comments: true
 ---
 

@@ -2,12 +2,11 @@
 layout: post
 title: "#1 Everyday GitFlow and Semantic Versioning"
 modified:
-categories: 
+categories:
 excerpt: Practical use of branching and versioning strategies for release management.
 tags: []
 image:
   feature: 1/feature.png
-date: 2015-09-20T11:38:19+02:00
 comments: true
 ---
 
