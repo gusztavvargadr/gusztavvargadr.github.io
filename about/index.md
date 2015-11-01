@@ -25,23 +25,10 @@ The name of the site comes from a related famous [campaign][WhereDoYouWantToGoTo
 
 ## Them
 
-Setting all this up and writing the first actual post after postponing it for years was inspired by [John Sonmez][SimpleProgrammer], [Scott Hanselman][Scott], [Joel Spolsky][Joel] and [Anton Sizikov][Anton].
+Setting all this up and writing the [first actual post][Post1] after postponing it for years was inspired by [John Sonmez][SimpleProgrammer], [Scott Hanselman][Scott], [Joel Spolsky][Joel] and [Anton Sizikov][Anton].
 
-## References
+## Resources
 
-* [Gusztáv][Gustav]
-* [Albelli][Albelli]
-* [Albelli Jobs][AlbelliJobs]
-* [I amsterdam][Iamsterdam]
-* [Visit Hungary][VisitHungary]
-* [Hungarians][Hungarians]
-* [How to piss off a Hungarian][HowToPissOffAHungarian]
-* [Simple Programmer][SimpleProgrammer]
-* [Scott Hanselman][Scott]
-* [Joel Spolsky][Joel]
-* [Anton Sizikov][Anton]
-* [Start With Why][WhyHowWhat]
-* [Where do you want to go today?][WhereDoYouWantToGoToday]
 * [Posts][Posts]
 
 [WhyHowWhat]: http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action?language=en
@@ -54,6 +41,7 @@ Setting all this up and writing the first actual post after postponing it for ye
 [Posts]: /posts/
 [HowToPissOffAHungarian]: http://matadornetwork.com/abroad/piss-hungarian/
 [WhereDoYouWantToGoToday]: https://en.wikipedia.org/wiki/Where_do_you_want_to_go_today%3F
+[Post1]: {% post_url 2015-09-18-1-everyday-gitflow-and-semantic-versioning %}
 [SimpleProgrammer]: http://simpleprogrammer.com/
 [Scott]: http://www.hanselman.com/
 [Joel]: http://www.joelonsoftware.com/
