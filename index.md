@@ -1,6 +1,6 @@
 ---
 layout: home
-excerpt: "All the ones ever caught."
+excerpt: "Your exceptions handled with care - all the ones ever caught."
 image:
   feature: feature.png
 ---

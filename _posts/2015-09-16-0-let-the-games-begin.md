@@ -1,15 +1,10 @@
 ---
 layout: post
 title: "#0 Let the games begin"
-modified:
-categories:
 excerpt: The root of all evil.
-tags: []
+tags: [ "First" ]
 image:
   feature: 0/feature.png
-  thumb:
-  credit:
-  creditlink:
 comments: true
 ---
 

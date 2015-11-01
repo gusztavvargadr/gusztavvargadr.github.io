@@ -1,10 +1,8 @@
 ---
 layout: post
 title: "#1 Everyday GitFlow and Semantic Versioning"
-modified:
-categories:
-excerpt: Practical use of branching and versioning strategies for release management.
-tags: []
+excerpt: Practical use of branching and versioning strategies for release management based on GitFlow and Semantic Versioning.
+tags: [ "GitFlow", "Semantic Versioning", "SemVer", "Octopus Deploy", "Octopus", "GitVersion", "First" ]
 image:
   feature: 1/feature.png
 comments: true
