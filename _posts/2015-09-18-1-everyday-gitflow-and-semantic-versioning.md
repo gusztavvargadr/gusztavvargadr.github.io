@@ -137,7 +137,7 @@ Add your comments below about the setup above or about how you do branching, ver
 [NuGetSemVer]: https://docs.nuget.org/create/versioning#really-brief-introduction-to-semver
 [Log4Net2]: https://www.nuget.org/packages/log4net/2.0.3
 [GitHubFlow]: https://guides.github.com/introduction/flow/
-[ARBranching]: https://vsarbranchingguide.codeplex.com/
+[ARBranching]: http://vsarbranchingguide.codeplex.com/
 [Octopus]: https://octopusdeploy.com/
 [AssemblyVersions]: http://stackoverflow.com/questions/64602/what-are-differences-between-assemblyversion-assemblyfileversion-and-assemblyin
 [GitHubProtectedBranches]: https://help.github.com/articles/about-protected-branches/
