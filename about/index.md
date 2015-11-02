@@ -41,7 +41,7 @@ Setting all this up and writing the [first actual post][Post1] after postponing 
 [Posts]: /posts/
 [HowToPissOffAHungarian]: http://matadornetwork.com/abroad/piss-hungarian/
 [WhereDoYouWantToGoToday]: https://en.wikipedia.org/wiki/Where_do_you_want_to_go_today%3F
-[Post1]: {% post_url 2015-09-18-1-everyday-gitflow-and-semantic-versioning %}
+[Post1]: {% post_url 2015-09-20-1-everyday-gitflow-and-semantic-versioning %}
 [SimpleProgrammer]: http://simpleprogrammer.com/
 [Scott]: http://www.hanselman.com/
 [Joel]: http://www.joelonsoftware.com/

@@ -122,11 +122,11 @@ I am also glad that the recent new features for tooling are signs that at least 
 * [Octopus Deploy][OctopusDeploy]
 * [AppVeyor][AppVeyor]
 
-[Post1]: {% post_url 2015-09-18-1-everyday-gitflow-and-semantic-versioning %}
+[Post1]: {% post_url 2015-09-20-1-everyday-gitflow-and-semantic-versioning %}
 [GitFlow]: http://nvie.com/posts/a-successful-git-branching-model/
 [SemVer]: http://semver.org/
 [GitVersion]: https://github.com/GitTools/GitVersion
-[Post1Branches]: {% post_url 2015-09-18-1-everyday-gitflow-and-semantic-versioning %}#branches-and-releases
+[Post1Branches]: {% post_url 2015-09-20-1-everyday-gitflow-and-semantic-versioning %}#branches-and-releases
 [NuGet]: https://www.nuget.org/
 [SampleProject]: https://github.com/gusztavvargadr/GitTools-GitVersion.Samples
 [AspNetWebApi]: http://www.asp.net/web-api
