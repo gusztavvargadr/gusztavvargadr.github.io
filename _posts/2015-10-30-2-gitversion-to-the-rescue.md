@@ -10,9 +10,7 @@ comments: true
 
 {% include _toc.html %}  
 <br/>
-In the [previous post][Post1] about [GitFlow][GitFlow] and [Semantic Versioning][SemVer], I have outlined a configuration for convention-based version number generation and status checks through the deployment pipeline. As I have mentioned there, I just came across [GitVersion][GitVersion], the awesome tool that brings this setup to the next level.
-
-Actually, given this tool's capabilities, what I have described earlier as an automated flow for the above tasks now feels like doing all the work manually.  
+In the [previous post][Post1] about [GitFlow][GitFlow] and [Semantic Versioning][SemVer], I have outlined a configuration for convention-based version number generation and status checks through the deployment pipeline. As I have mentioned there, I just came across [GitVersion][GitVersion], the awesome tool that brings this setup to the next level. Actually, given this tool's capabilities, what I have described earlier as an automated flow for the above tasks now feels like doing all the work manually.  
 <br/>
 In this post, I show a configuration using this new tooling, producing the same result; however, it was  achieved in a much more flexible and maintainable way.  
 <br/>
