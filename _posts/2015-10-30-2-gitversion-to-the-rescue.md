@@ -12,7 +12,7 @@ comments: true
 <br/>
 In the [previous post][Post1] about [GitFlow][GitFlow] and [Semantic Versioning][SemVer], I have outlined a configuration for convention-based version number generation and status checks through the deployment pipeline. As I have mentioned there, I just came across [GitVersion][GitVersion], the awesome tool that brings this setup to the next level. Actually, given this tool's capabilities, what I have described earlier as an automated flow for the above tasks now feels like doing all the work manually.  
 <br/>
-In this post, I show a configuration using this new tooling, producing the same result; however, it was  achieved in a much more flexible and maintainable way.  
+In this post, I show a configuration using this new tooling, producing the same result; however, it was  achieved in a much more flexible and maintainable way. There is no need for maintaining a base version number manually and committing its changes back to source control.  
 <br/>
 Based on these posts, it seems that this is a blog about GitFlow and Semantic Versioning only, but this is not the case. It's just that all of the posts are about that topic so far.
 
@@ -106,13 +106,13 @@ Manually maintaining a base version in this setup, though, requires usually new 
 
 ### Deployment
 
-Now it feels natural that Octopus Deploy has just (pre)released supporting customizing deployment processes based on branching and versioning patterns. Its long-awaited [Channels][OctopusDeployChannels] feature eliminates the need for custom processes or scripts based on the type of a release. I look forward to this feature being available in the next stable release and further simplifying our continuous deployment workflow with it.
+Now it feels natural that Octopus Deploy has just (pre)released supporting customizing deployment processes based on branching and versioning patterns. Its long-awaited [Channels][OctopusDeployChannels] feature eliminates the need for custom processes or scripts based on the type of a release. I look forward to this feature being available in the next stable release and further simplifying our continuous deployment workflow with it. They use GitVersion for demonstrating Channels, as you might have guessed.
 
 ## Summary
 
 I hope this post will help you to give GitVersion a try, in case you were unfamiliar with it before. Even if your workflow differs significantly from the one described above, I encourage you to play with it, as it natively supports all the major branching models as well as the CI build providers, and through its extensive configuration options, the possible use cases are basically endless. Share your experiences in the comments.  
 <br/>
-I am also glad that the recent new features for tooling are signs that at least some of us are getting closer to having an unofficial consensus on branching and release management. In case you still miss some features, create and issue or send them a pull request, as probably I will also report on the [minor problems][SampleProjectIssues] I have discovered so far.
+I am also glad that the recent new features for tooling are signs that at least some of us are getting closer to having an unofficial consensus on branching and release management. In case you still miss some features, create an issue or send them a pull request.
 
 ## Resources
 
@@ -143,4 +143,3 @@ I am also glad that the recent new features for tooling are signs that at least 
 [GitHub]: https://github.com/
 [GitHubProtectedBranches]: https://github.com/blog/2051-protected-branches-and-required-status-checks
 [OctopusDeployChannels]: https://octopus.com/blog/channels-walkthrough
-[SampleProjectIssues]: https://github.com/gusztavvargadr/GitTools-GitVersion.Samples/issues
