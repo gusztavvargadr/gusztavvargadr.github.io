@@ -8,8 +8,9 @@ notifications:
     on_success: change
     on_failure: change
 
-script: bundle update
-script: bundle exec jekyll build --config _config.yml,_config.development.yml && bundle exec htmlproof ./_site
+script:
+  - bundle update
+  - bundle exec jekyll build --config _config.yml,_config.development.yml && bundle exec htmlproof ./_site
 
 #env:
 #  global:
