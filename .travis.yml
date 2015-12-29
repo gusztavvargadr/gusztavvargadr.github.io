@@ -1,5 +1,5 @@
 language: ruby
-# cache: bundler
+cache: bundler
 rvm:
 - 2.1
 
@@ -8,9 +8,7 @@ notifications:
     on_success: change
     on_failure: change
 
-script:
-#  - bundle update
-  - bundle exec jekyll build --config _config.yml,_config.development.yml && bundle exec htmlproof ./_site
+script: bundle exec jekyll build --config _config.yml,_config.development.yml && bundle exec htmlproof ./_site
 
 #env:
 #  global:
