@@ -8,4 +8,4 @@ notifications:
     on_success: change
     on_failure: change
 
-script: bash jekyll.build.sh && bash htmlproof.sh
+script: bundle exec jekyll build --config=_config.yml,_config.development.yml --drafts && bundle exec htmlproof _site/

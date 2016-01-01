@@ -1,3 +1,3 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-bundle exec htmlproof ./_site
+bundle exec htmlproof _site/
