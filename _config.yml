@@ -14,6 +14,7 @@ sass:
   style: compressed
 gems:
   - jekyll-sitemap
+  - jekyll-gist
 
 kramdown:
   auto_ids: true
@@ -21,7 +22,6 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   use_coderay: false
-
 
 # Site owner
 owner:
