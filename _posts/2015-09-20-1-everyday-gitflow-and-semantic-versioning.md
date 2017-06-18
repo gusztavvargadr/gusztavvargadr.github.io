@@ -6,6 +6,7 @@ tags: [ "GitFlow", "Semantic Versioning", "SemVer" ]
 image:
   feature: 1/feature.png
 comments: true
+redirect_to: https://blog.gusztavvargadr.me/1-everyday-gitflow-and-semantic-versioning-6d04023d6bf2
 ---
 
 {% include _toc.html %}  

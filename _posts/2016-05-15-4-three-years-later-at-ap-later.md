@@ -6,6 +6,7 @@ tags: [ "Albumprinter" ]
 image:
   feature: 4/feature.jpg
 comments: true
+redirect_to: https://blog.gusztavvargadr.me/4-three-years-later-at-ap-later-e3c1d0be3f96
 ---
 
 {% include _toc.html %}  

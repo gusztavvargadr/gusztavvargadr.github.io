@@ -6,6 +6,7 @@ tags: [ "GitVersion", "GitFlow", "Semantic Versioning", "SemVer" ]
 image:
   feature: 2/feature.png
 comments: true
+redirect_to: https://blog.gusztavvargadr.me/2-gitversion-to-the-rescue-97781db31ec2
 ---
 
 {% include _toc.html %}  

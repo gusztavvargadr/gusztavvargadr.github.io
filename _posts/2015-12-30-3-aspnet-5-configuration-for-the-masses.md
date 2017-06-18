@@ -6,6 +6,7 @@ tags: [ "ASP.NET", "Configuration" ]
 image:
   feature: 3/feature.png
 comments: true
+redirect_to: https://blog.gusztavvargadr.me/3-asp-net-5-configuration-for-the-masses-1fa4e22e11e6
 ---
 
 {% include _toc.html %}  
