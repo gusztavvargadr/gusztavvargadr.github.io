@@ -6,8 +6,7 @@ tags: []
 image:
   feature: 0/feature.png
 comments: true
-redirect_to:
-  - https://blog.gusztavvargadr.me/0-let-the-games-begin-27ddaa818198
+redirect_to: https://blog.gusztavvargadr.me/0-let-the-games-begin-27ddaa818198
 ---
 
 {% include _toc.html %}  
