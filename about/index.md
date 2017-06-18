@@ -5,7 +5,7 @@ excerpt: "All along the stack trace."
 share: false
 image:
   feature: feature.png
-redirect_to: https://blog.gusztavvargadr.me
+redirect_to: https://blog.gusztavvargadr.me/about
 ---
 
 {% include _toc.html %}  
