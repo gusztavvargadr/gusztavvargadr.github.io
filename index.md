@@ -5,6 +5,5 @@ image:
   feature: feature.png
 ---
 
-[Blog](https://blog.gusztavvargadr.me)   
-[Packer](https://gusztavvargadr.github.io/packer/)  
-[Sitemap](https://gusztavvargadr.github.io/packer/sitemap.xml)
+[Blog](https://blog.gusztavvargadr.me)  
+[Packer](https://packer.gusztavvargadr.me)  
